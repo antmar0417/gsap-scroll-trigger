@@ -26,18 +26,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 
-    <script>
-      let tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".dark",
-        },
-      });
-
-      tl.from("img", { x: -200, opacity: 0, duration: 1.5 }, "+=0.5").from(
-        ".content",
-        { y: 300, opacity: 0, duration: 1.5 },
-        "-=1"
-      );
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
