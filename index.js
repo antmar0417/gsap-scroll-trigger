@@ -9,3 +9,10 @@ tl.from("img", { x: -200, opacity: 0, duration: 1.5 }, "+=0.5").from(
   { y: 300, opacity: 0, duration: 1.5 },
   "-=1"
 );
+
+function ingredientsHover() {
+  document.getElementById("down").style.fontSize = "300%";
+}
+function ingredientsNormal() {
+  document.getElementById("down").style.fontSize = "100%";
+}
