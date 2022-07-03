@@ -20,12 +20,6 @@ section {
   background: gray;
 }
 
-.box {
-  background: red;
-  width: 200px;
-  height: 200px;
-}
-
 .dark {
   text-align: left;
   background: rgb(1, 4, 7);
@@ -58,4 +52,22 @@ h2 {
 p {
   z-index: 1;
   font-size: 1.6em;
+}
+
+.first-section-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.third-section-text {
+  margin: 0;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
